@@ -1,0 +1,502 @@
+body {
+  background-color: #2f3136;
+  font: 400 1.125em/1.38 Helvetica;
+  color: rgb(255, 255, 255);
+}
+
+.arsmg {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 37;
+  width: 28.1661676646%;
+  min-height: 17px;
+  margin-left: 1.19012%;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.389em;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.gems {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 42;
+  width: 28.1598443463%;
+  min-height: 17px;
+  margin-left: 1.14521%;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.389em;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.guidelines {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 88.8888888888%;
+  margin-top: 60px;
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 123px;
+  height: auto;
+  margin: 7px 0 0 11.75197%;
+  overflow: hidden;
+}
+
+.imagemask {
+  position: relative;
+  float: left;
+  z-index: 14;
+  width: 39.9163440265%;
+  height: 72px;
+  overflow: hidden;
+}
+
+.interiortext1 {
+  position: absolute;
+  top: 30px;
+  left: 4.9987900577%;
+  z-index: 10;
+  width: 90.0024198845%;
+  min-height: 23px;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.interiortext2 {
+  float: left;
+  width: 79.9986172566%;
+  min-height: 23px;
+  margin: 31px 0 0 9.9937799999%;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.interiortext3 {
+  float: left;
+  width: 89.867597746%;
+  min-height: 23px;
+  margin-left: 4.98825%;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.intro {
+  float: left;
+  clear: both;
+  width: 88.8888888888%;
+  height: 227px;
+  margin-top: 60px;
+}
+
+.logistics {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 41.8518518518%;
+  height: 663px;
+  margin: 30px 0 0 1.66667%;
+  background-color: #292b2f;
+  box-shadow: -5px 0 0 rgb(143, 195, 31), 5px 0 0 #8fc31f;
+  overflow: auto;
+}
+
+.logistics .title {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  z-index: 15;
+  width: 60%;
+  min-height: 71px;
+  font: bold 2.667em/1.48 'Calibri';
+  color: rgb(0, 0, 0);
+}
+
+.production {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 27;
+  width: 28.1661676646%;
+  min-height: 17px;
+  margin-left: 1.19012%;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.389em;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.prog {
+  float: left;
+  clear: both;
+  width: 88.8888888888%;
+  height: 115px;
+  margin-top: 60px;
+}
+
+.prog .title {
+  float: left;
+  width: 100%;
+  min-height: 15px;
+  border-bottom: 6px double rgb(255, 187, 0);
+  font-family: Montserrat;
+  font-size: 1.667em;
+  font-weight: 700;
+  color: rgb(255, 187, 0);
+}
+
+.rarity {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 32;
+  width: 28.1661676646%;
+  min-height: 17px;
+  margin-left: 1.19012%;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.389em;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.resources {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 22;
+  width: 28.1661676646%;
+  min-height: 17px;
+  margin-left: 1.19012%;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.389em;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.subtext {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 23px;
+  margin-top: 20px;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.tableofcontents {
+  float: left;
+  clear: both;
+  width: 88.8888888888%;
+  height: 47px;
+  margin-top: 60px;
+}
+
+.titlebg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  width: 100%;
+  height: 72px;
+  background-color: rgb(222, 222, 222);
+  box-shadow: 0 -5px 50px rgba(0, 0, 0, .5) inset, 0 5px 50px rgba(0, 0, 0, .5) inset;
+}
+
+.titles {
+  float: left;
+  width: 88.8888888888%;
+  margin-top: 60px;
+}
+
+.titles .title {
+  float: left;
+  width: 100%;
+  min-height: 29px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 2.222em;
+  color: rgb(255, 187, 0);
+}
+
+.why2bg {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: #292b2f;
+  box-shadow: 0 15px 20px rgb(17, 18, 20) inset, 0 -10px 15px rgb(17, 18, 20) inset;
+}
+
+.why2bot {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7;
+  width: 100%;
+  height: 35px;
+  border-radius: 30px;
+  background-color: rgb(143, 195, 31);
+  font-family: Montserrat;
+  font-size: 0.889em;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.why2bot:hover,
+.why2top:hover {
+  background-color: rgb(255, 255, 255);
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.why2bot:active,
+.why2top:active {
+  background-color: rgb(204, 150, 0);
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.why2button {
+  position: absolute;
+  top: 222px;
+  left: 35.4984789823%;
+  z-index: 9;
+  width: 28.9027931415%;
+  height: 35px;
+}
+
+.why2top {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8;
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(20, 20, 20);
+  font-family: Montserrat;
+  font-size: 0.889em;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+._container {
+  float: left;
+  clear: both;
+}
+
+._element {
+  float: left;
+}
+
+._text {
+  float: left;
+}
+
+.guidelines ._container {
+  width: 86.9791666666%;
+}
+
+.guidelines ._element {
+  width: 100%;
+  height: 10px;
+}
+
+.intro ._text {
+  width: 100%;
+}
+
+.guidelines ._text-6,
+.tableofcontents ._text {
+  width: 100%;
+  min-height: 15px;
+  border-bottom: 6px double rgb(255, 187, 0);
+  font-family: Montserrat;
+  font-size: 1.667em;
+  font-weight: 700;
+  color: rgb(255, 187, 0);
+}
+
+.titles ._text {
+  clear: both;
+  width: 100%;
+  min-height: 14px;
+  font-family: Raleway;
+  font-size: 1.389em;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.why2bg ._element {
+  clear: both;
+  width: 79.9986172566%;
+  height: 20px;
+  margin-left: 9.9937799999%;
+}
+
+.body-1 {
+  float: left;
+  width: 90%;
+  margin-left: 10%;
+}
+
+.guidelines ._container-1 {
+  margin: 30px 0 0 6.45671%;
+  background-color: rgb(34, 36, 40);
+}
+
+.guidelines ._container-2 {
+  position: relative;
+  margin-left: 6.45671%;
+}
+
+.guidelines ._container-3 {
+  position: relative;
+  margin-left: 6.4974%;
+  background-color: rgb(34, 36, 40);
+}
+
+.guidelines ._container-4 {
+  position: relative;
+  margin-left: 6.4974%;
+}
+
+.guidelines ._container-5 {
+  position: relative;
+  margin-left: 6.45671%;
+  background-color: rgb(34, 36, 40);
+}
+
+.guidelines ._element-10,
+.guidelines ._element-2,
+.guidelines ._element-4,
+.guidelines ._element-6,
+.guidelines ._element-8 {
+  clear: both;
+}
+
+.guidelines ._text-10 {
+  position: relative;
+  z-index: 31;
+  width: 68.3832335329%;
+  min-height: 23px;
+  margin-left: 1.15082%;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.guidelines ._text-11 {
+  position: relative;
+  z-index: 26;
+  width: 68.3832335329%;
+  min-height: 23px;
+  margin-left: 1.15082%;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.guidelines ._text-12 {
+  position: relative;
+  z-index: 21;
+  width: 68.3832335329%;
+  min-height: 23px;
+  margin-left: 1.14521%;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.guidelines ._text-7 {
+  clear: both;
+  width: 100%;
+  min-height: 23px;
+  margin-top: 20px;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.guidelines ._text-8 {
+  position: relative;
+  z-index: 41;
+  width: 68.3678814637%;
+  min-height: 23px;
+  margin-left: 1.17328%;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.guidelines ._text-9 {
+  position: relative;
+  z-index: 36;
+  width: 68.3832335329%;
+  min-height: 23px;
+  margin-left: 1.15457%;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.intro ._text-2 {
+  min-height: 15px;
+  border-bottom: 6px double rgb(255, 187, 0);
+  font-family: Montserrat;
+  font-size: 1.667em;
+  font-weight: 700;
+  color: rgb(255, 187, 0);
+}
+
+.intro ._text-3 {
+  clear: both;
+  min-height: 23px;
+  margin-top: 20px;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.intro ._text-4 {
+  clear: both;
+  min-height: 11px;
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 0.833em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.logistics ._container-6 {
+  position: relative;
+  width: 99.9965431415%;
+  height: 145px;
+}
+
+.logistics ._container-7 {
+  position: relative;
+  z-index: 6;
+  width: 100%;
+  min-height: 17px;
+  margin-top: 22px;
+}
+
+.logistics ._container-8 {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.logistics ._element-12 {
+  clear: both;
+  width: 100%;
+  height: 25px;
+  margin-top: 44px;
+}
