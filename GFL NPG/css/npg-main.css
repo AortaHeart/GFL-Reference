@@ -1,502 +1,294 @@
 body {
-  background-color: #2f3136;
-  font: 400 1.125em/1.38 Helvetica;
-  color: rgb(255, 255, 255);
-}
-
-.arsmg {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 37;
-  width: 28.1661676646%;
-  min-height: 17px;
-  margin-left: 1.19012%;
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 1.389em;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
-}
-
-.gems {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 42;
-  width: 28.1598443463%;
-  min-height: 17px;
-  margin-left: 1.14521%;
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 1.389em;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
-}
-
-.guidelines {
-  position: relative;
-  float: left;
-  clear: both;
-  width: 88.8888888888%;
-  margin-top: 60px;
-}
-
-.image {
-  display: block;
-  float: left;
-  width: 123px;
   height: auto;
-  margin: 7px 0 0 11.75197%;
-  overflow: hidden;
+  background-color: #2f3136;
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 22px;
+  color: #dcddde;
+  line-height: 1.3;
+  padding: 20px;
+  padding-bottom: 400px;
 }
 
-.imagemask {
-  position: relative;
-  float: left;
-  z-index: 14;
-  width: 39.9163440265%;
-  height: 72px;
-  overflow: hidden;
+* {
+  margin: 0px;
+  border-style: none;
 }
 
-.interiortext1 {
-  position: absolute;
-  top: 30px;
-  left: 4.9987900577%;
-  z-index: 10;
-  width: 90.0024198845%;
-  min-height: 23px;
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.interiortext2 {
-  float: left;
-  width: 79.9986172566%;
-  min-height: 23px;
-  margin: 31px 0 0 9.9937799999%;
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.interiortext3 {
-  float: left;
-  width: 89.867597746%;
-  min-height: 23px;
-  margin-left: 4.98825%;
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.intro {
-  float: left;
-  clear: both;
-  width: 88.8888888888%;
-  height: 227px;
-  margin-top: 60px;
-}
-
-.logistics {
-  position: relative;
-  float: left;
-  clear: both;
-  width: 41.8518518518%;
-  height: 663px;
-  margin: 30px 0 0 1.66667%;
-  background-color: #292b2f;
-  box-shadow: -5px 0 0 rgb(143, 195, 31), 5px 0 0 #8fc31f;
-  overflow: auto;
-}
-
-.logistics .title {
-  position: absolute;
-  top: 0;
-  left: 40%;
-  z-index: 15;
-  width: 60%;
-  min-height: 71px;
-  font: bold 2.667em/1.48 'Calibri';
-  color: rgb(0, 0, 0);
-}
-
-.production {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 27;
-  width: 28.1661676646%;
-  min-height: 17px;
-  margin-left: 1.19012%;
-  font-family: Montserrat;
+.bold {
   font-weight: bold;
-  font-size: 1.389em;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
 }
-
-.prog {
-  float: left;
-  clear: both;
-  width: 88.8888888888%;
-  height: 115px;
-  margin-top: 60px;
-}
-
-.prog .title {
-  float: left;
-  width: 100%;
-  min-height: 15px;
-  border-bottom: 6px double rgb(255, 187, 0);
-  font-family: Montserrat;
-  font-size: 1.667em;
-  font-weight: 700;
-  color: rgb(255, 187, 0);
-}
-
-.rarity {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 32;
-  width: 28.1661676646%;
-  min-height: 17px;
-  margin-left: 1.19012%;
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 1.389em;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
-}
-
-.resources {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 22;
-  width: 28.1661676646%;
-  min-height: 17px;
-  margin-left: 1.19012%;
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 1.389em;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
-}
-
-.subtext {
-  float: left;
-  clear: both;
-  width: 100%;
-  min-height: 23px;
-  margin-top: 20px;
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.tableofcontents {
-  float: left;
-  clear: both;
-  width: 88.8888888888%;
-  height: 47px;
-  margin-top: 60px;
-}
-
-.titlebg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 12;
-  width: 100%;
-  height: 72px;
-  background-color: rgb(222, 222, 222);
-  box-shadow: 0 -5px 50px rgba(0, 0, 0, .5) inset, 0 5px 50px rgba(0, 0, 0, .5) inset;
-}
-
-.titles {
-  float: left;
-  width: 88.8888888888%;
-  margin-top: 60px;
-}
-
-.titles .title {
-  float: left;
-  width: 100%;
-  min-height: 29px;
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 2.222em;
-  color: rgb(255, 187, 0);
-}
-
-.why2bg {
-  position: relative;
-  float: left;
-  width: 100%;
-  background-color: #292b2f;
-  box-shadow: 0 15px 20px rgb(17, 18, 20) inset, 0 -10px 15px rgb(17, 18, 20) inset;
-}
-
-.why2bot {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 7;
-  width: 100%;
-  height: 35px;
-  border-radius: 30px;
-  background-color: rgb(143, 195, 31);
-  font-family: Montserrat;
-  font-size: 0.889em;
-  font-weight: 700;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-
-.why2bot:hover,
-.why2top:hover {
-  background-color: rgb(255, 255, 255);
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-}
-
-.why2bot:active,
-.why2top:active {
-  background-color: rgb(204, 150, 0);
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-}
-
-.why2button {
-  position: absolute;
-  top: 222px;
-  left: 35.4984789823%;
-  z-index: 9;
-  width: 28.9027931415%;
-  height: 35px;
-}
-
-.why2top {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 8;
-  width: 100%;
-  height: 35px;
-  border-radius: 10px;
-  background-color: rgb(20, 20, 20);
-  font-family: Montserrat;
-  font-size: 0.889em;
-  font-weight: 700;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-._container {
-  float: left;
-  clear: both;
-}
-
-._element {
-  float: left;
-}
-
-._text {
-  float: left;
-}
-
-.guidelines ._container {
-  width: 86.9791666666%;
-}
-
-.guidelines ._element {
-  width: 100%;
-  height: 10px;
-}
-
-.intro ._text {
-  width: 100%;
-}
-
-.guidelines ._text-6,
-.tableofcontents ._text {
-  width: 100%;
-  min-height: 15px;
-  border-bottom: 6px double rgb(255, 187, 0);
-  font-family: Montserrat;
-  font-size: 1.667em;
-  font-weight: 700;
-  color: rgb(255, 187, 0);
-}
-
-.titles ._text {
-  clear: both;
-  width: 100%;
-  min-height: 14px;
-  font-family: Raleway;
-  font-size: 1.389em;
-  font-weight: 600;
-  color: rgb(255, 255, 255);
-}
-
-.why2bg ._element {
-  clear: both;
-  width: 79.9986172566%;
-  height: 20px;
-  margin-left: 9.9937799999%;
-}
-
-.body-1 {
-  float: left;
-  width: 90%;
-  margin-left: 10%;
-}
-
-.guidelines ._container-1 {
-  margin: 30px 0 0 6.45671%;
-  background-color: rgb(34, 36, 40);
-}
-
-.guidelines ._container-2 {
-  position: relative;
-  margin-left: 6.45671%;
-}
-
-.guidelines ._container-3 {
-  position: relative;
-  margin-left: 6.4974%;
-  background-color: rgb(34, 36, 40);
-}
-
-.guidelines ._container-4 {
-  position: relative;
-  margin-left: 6.4974%;
-}
-
-.guidelines ._container-5 {
-  position: relative;
-  margin-left: 6.45671%;
-  background-color: rgb(34, 36, 40);
-}
-
-.guidelines ._element-10,
-.guidelines ._element-2,
-.guidelines ._element-4,
-.guidelines ._element-6,
-.guidelines ._element-8 {
-  clear: both;
-}
-
-.guidelines ._text-10 {
-  position: relative;
-  z-index: 31;
-  width: 68.3832335329%;
-  min-height: 23px;
-  margin-left: 1.15082%;
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.guidelines ._text-11 {
-  position: relative;
-  z-index: 26;
-  width: 68.3832335329%;
-  min-height: 23px;
-  margin-left: 1.15082%;
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.guidelines ._text-12 {
-  position: relative;
-  z-index: 21;
-  width: 68.3832335329%;
-  min-height: 23px;
-  margin-left: 1.14521%;
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.guidelines ._text-7 {
-  clear: both;
-  width: 100%;
-  min-height: 23px;
-  margin-top: 20px;
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.guidelines ._text-8 {
-  position: relative;
-  z-index: 41;
-  width: 68.3678814637%;
-  min-height: 23px;
-  margin-left: 1.17328%;
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.guidelines ._text-9 {
-  position: relative;
-  z-index: 36;
-  width: 68.3832335329%;
-  min-height: 23px;
-  margin-left: 1.15457%;
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.intro ._text-2 {
-  min-height: 15px;
-  border-bottom: 6px double rgb(255, 187, 0);
-  font-family: Montserrat;
-  font-size: 1.667em;
-  font-weight: 700;
-  color: rgb(255, 187, 0);
-}
-
-.intro ._text-3 {
-  clear: both;
-  min-height: 23px;
-  margin-top: 20px;
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.intro ._text-4 {
-  clear: both;
-  min-height: 11px;
-  margin-top: 20px;
+.italic {
   font-style: italic;
-  font-size: 0.833em;
-  text-align: center;
-  color: rgb(255, 255, 255);
+}
+.slightfade {
+  opacity: .75;
+}
+.underline {
+  text-decoration: underline;
 }
 
-.logistics ._container-6 {
-  position: relative;
-  width: 99.9965431415%;
-  height: 145px;
+.montserrat {
+  font-family: montserrat
 }
 
-.logistics ._container-7 {
-  position: relative;
-  z-index: 6;
-  width: 100%;
-  min-height: 17px;
-  margin-top: 22px;
+.clearleft {
+  clear: left;
 }
 
-.logistics ._container-8 {
-  width: 100%;
+/* Following two CSS classes used as jQuery flags for centering function */
+
+.centerhorizontal {}
+.centervertical {}
+
+.tangerine {
+  color: #ffbb00;
+}
+
+.title {
+  font-family: montserrat !important;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.subtitle {
+  font-family: raleway !important;
+}
+
+.section {
+  margin-top: 60px;
+  height: auto;
+}
+
+.header {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffbb00;
+  border-bottom: 6px double;
+  /*overflow:hidden;*/
+}
+/*.headerquote {
+  font-family: Raleway;
+  display: inline-block;
+  white-space: nowrap;
+  float:right;
+}*/
+
+.text { /* Inherits other properties from body class */
   margin-top: 20px;
 }
+.texttenpx {
+  margin-top: 10px;
+}
 
-.logistics ._element-12 {
-  clear: both;
+table.twocolumntable {
+  margin-top: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+table.twocolumntable td { /* Table-wide padding */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px
+}
+table.twocolumntable td:first-child { /* Customizes row name text */
+  font-family: montserrat;
+  font-size: 30px;
+  font-weight: bold;
+  vertical-align: top;
+}
+table.twocolumntable td:nth-child(2) { /* Sizes font in second column */
+  font-size: 22px;
+}
+table.twocolumntable tr:nth-child(odd) { /* Alternating row color for readability */
+  background-color: #222428;
+}
+table.twocolumntable td+td { /* Renders a border between columns */
+  border-left: 5px solid #2f3136;
+}
+
+/* Visual formatting of side-by-side columns */
+/* Main columns */
+.twincolumnwrapper {
+  padding-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+.twincolumn {
+  width: 47.5%;
+  height: auto;
+  padding-bottom: 30px;
+}
+/*.righttwincolumn {
+  float: right;
+  width: 47.5%;
+  height: auto;
+  border-left: 5px solid #ffbb00;
+  border-right: 5px solid #ffbb00;
+}*/
+.lefttwin {
+  float: left;
+  border-left: 5px solid #8fc31f;
+  border-right: 5px solid #8fc31f;
+  border-bottom: 5px solid #6f9718;
+}
+.righttwin {
+  float: right;
+  border-left: 5px solid #ffbb00;
+  border-right: 5px solid #ffbb00;
+  border-bottom: 5px solid #cc9600;
+}
+
+/* Floating Centered Columns */
+
+.centeredtwincolumn_wrapper {
   width: 100%;
-  height: 25px;
-  margin-top: 44px;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.centeredtwincolumn_float {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-bottom: 10px;
+  background-color: #292b2f;
+  float: left;
+  text-align: center;
+  border-top: 5px solid #cc9600;
+  border-bottom: 5px solid #cc9600;
+}
+
+/*
+  'cat' = category;
+*/
+
+
+.cattitlebg {
+  height: 72px;
+  background-color: #DEDEDE;
+  box-shadow:
+    0 -5px 50px rgba(0, 0, 0, .5) inset,
+    0 5px 50px rgba(0, 0, 0, .5) inset;
+  overflow: hidden;
+}
+/*.cattitlewrapper {
+  display: inline-block;
+}*/
+
+.cattitle {
+  float: left;
+  line-height: 70px;
+  width: 60%;;
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 45px;
+  color: black;
+
+}
+.caticon {
+  float: left;
+  width: 32%;
+  padding-left: 5%;
+  overflow: visible;
+}
+
+.gears { /* Small image placement adjustment */
+  margin-top: 5px;
+}
+/*
+  'cat'   = category
+  'sect'  = section
+  'btn'   = button
+*/
+
+.catsection {
+
+}
+.catsect_text {
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 20px;
+}
+.catsect_text_center {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+/*.catsectbtn_wrap {
+
+}*/
+.catsect_btn {
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 36px;
+}
+.catsect_btn:hover {
+  background-color: #ffffff;
+  color: #141414;
+}
+.catsectbtn_top {
+  background-color: #141414;
+  color: #dcddde;
+  border-radius: 10px;
+  z-index: +1;
+}
+.btn_bot {
+  color: #141414;
+  border-radius: 30px;
+}
+.centered_btn_wrap {
+  height: 76px;
+}
+/* Button color customization */
+.limegreen_btn {
+  background-color: #8fc31f;
+}
+.limegreen_btn_active:active {
+  background-color: #6f9718;
+}
+.tangerine_btn {
+  background-color: #ffbb00;
+}
+.tangerine_btn_active:active {
+  background-color: #cc9600;
+}
+
+.btn_absolutepos { /* Allows twin buttons to overlap */
+  position: absolute;
+}
+
+/* Identifier classes for jQuery to reference the nominal buttons and collapsible sections */
+  .whytwo                 {}
+    .whytwohidden         {}
+  .howtogo                {}
+    .howtogohidden        {}
+  .whentoswitch           {}
+    .whentoswitchhidden   {}
+  .pointers               {}
+    .pointershidden       {}
+
+
+.catsect_collapsible {
+  margin-top: 15px;
+  padding-top: 30px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-bottom: 20px;
+  box-shadow:
+    0 15px 20px rgb(17, 18, 20) inset,
+    0 -10px 15px rgb(17, 18, 20) inset;
+  border-top: 6px solid #141414;
 }
