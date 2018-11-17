@@ -6,14 +6,14 @@
   var $how2goon = $('.howtogobot');
   var $how2gotext = $('.howtogohidden');
   var $when2switchoff = $('.whentoswitchtop');
-  var $when2switchon = $('whentoswitchbot');
-  var $when2switchtext = $('whentoswitchhidden');
-  var $pointersoff = $('pointerstop');
-  var $pointerson = $('pointersbot');
-  var $pointerstext = $('pointershidden');
-  var $whenshoulduseoff = $('whatshouldusetop');
-  var $whenshoulduseon = $('whatshouldusebot');
-  var $whenshouldusetext = $('whatshouldusehidden');
+  var $when2switchon = $('.whentoswitchbot');
+  var $when2switchtext = $('.whentoswitchhidden');
+  var $pointersoff = $('.pointerstop');
+  var $pointerson = $('.pointersbot');
+  var $pointerstext = $('.pointershidden');
+  var $whenshoulduseoff = $('.whatshouldusetop');
+  var $whenshoulduseon = $('.whatshouldusebot');
+  var $whenshouldusetext = $('.whatshouldusehidden');
 
   jQuery.fn.center = function(parent) {
       if (parent) {
@@ -28,10 +28,10 @@
   return this;
   }
   $('.centerhorizontal').center();
-  $('.centervertical').center();
+  //$('.centervertical').center();
 
   $(document).ready(function () {
-    $('.whytwohidden .howtogohidden .whentoswitchhidden .pointershidden .whatshouldusehidden').css('display', 'none');
+    $('.whytwohidden,.howtogohidden,.whentoswitchhidden,.pointershidden,.whatshouldusehidden').css('display', 'none');
   });
 
   $('.whytwotop,.whytwobot').on('click', why2toggle);
