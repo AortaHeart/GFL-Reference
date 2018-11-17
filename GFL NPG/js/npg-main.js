@@ -15,6 +15,20 @@
   var $whenshoulduseon = $('whatshouldusebot');
   var $whenshouldusetext = $('whatshouldusehidden');
 
+  jQuery.fn.center = function(parent) {
+      if (parent) {
+          parent = this.parent();
+      } else {
+          parent = window;
+      }
+      this.css({
+          "position": "absolute",
+          "left": ((($(parent).width() - this.outerWidth()) / 2) + $(parent).scrollLeft() + "px")
+      });
+  return this;
+  }
+  $('.centerhorizontal').center();
+  $('.centervertical').center();
 
   $(document).ready(function () {
     $('.whytwohidden .howtogohidden .whentoswitchhidden .pointershidden .whatshouldusehidden').css('display', 'none');
