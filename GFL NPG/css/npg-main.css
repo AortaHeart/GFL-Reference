@@ -271,14 +271,21 @@ table.twocolumntable td+td { /* Renders a border between columns */
 }
 
 /* Identifier classes for jQuery to reference the nominal buttons and collapsible sections */
-  .whytwo                 {}
+  .whytwotop              {}
+  .whytwobot              {}
     .whytwohidden         {}
-  .howtogo                {}
+  .howtogotop             {}
+  .howtogobot             {}
     .howtogohidden        {}
-  .whentoswitch           {}
+  .whentoswitchtop        {}
+  .whentoswitchbot        {}
     .whentoswitchhidden   {}
-  .pointers               {}
+  .pointerstop            {}
+  .pointersbot            {}
     .pointershidden       {}
+  .whatshouldusetop       {}
+  .whatshouldusebot       {}
+    .whatshouldusehidden  {}
 
 
 .catsect_collapsible {

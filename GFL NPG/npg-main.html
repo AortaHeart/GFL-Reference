@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>New Player Guide</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/npg-main.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
   <link rel="stylesheet"
@@ -42,7 +44,7 @@
       </tr>
       <tr>
         <td>RESOURCES:</td>
-        <td>In spite of what the currently displayed resource softcap is, one should always consider it to be 300,000-- the listed cap only applies to passive regeneration, not logistics (the commander's primary source of income). It is much more important to hoard resources for rate-up and grind events than to maintain passive regen by staying under the listed cap.</td>
+        <td>In spite of what the currently displayed resource softcap is, one should always consider it to be 300,000-- the listed softcap only applies to passive regeneration, not logistics (the commander's primary source of income). It is much more important to hoard resources for rate-up and grind events than to maintain passive regen by staying under the listed softcap.</td>
       </tr>
     </table>
   </div>
@@ -61,25 +63,25 @@
         </div>
         <div class="catsection">
           <p class="text catsect_text">- Level arbitrary dolls for the purpose of sending out logistics missions early on. Always retain two echelons for active use (starting echelon count is four, so send two logis out to begin with).</p>
-          <button class="catsect_btn catsectbtn_top btn_absolutepos limegreen_btn_active centerhorizontal">
+          <button class="whytwotop catsect_btn catsectbtn_top btn_absolutepos limegreen_btn_active centerhorizontal">
             WHY TWO?
           </button>
-          <button class="catsect_btn btn_bot btn_absolutepos limegreen_btn limegreen_btn_active centerhorizontal">
+          <button class="whytwobot catsect_btn btn_bot btn_absolutepos limegreen_btn limegreen_btn_active centerhorizontal">
             WHY TWO?
           </button>
-          <div class="catsect_collapsible">
+          <div class="whytwohidden catsect_collapsible">
             Many missions will require the use of a 'dummy echelon', which is an echelon (usually one HG) used for the sole purpose of an extra movement point.
           </div>
         </div>
         <div class="catsection">
           <p class="text catsect_text">- Purchase fifth echelon when gem count permits. If not enough gems are available after acquiring the first three Anti-Rain dolls <span class="italic slightfade">(see right)</span>, S rank some missions for extra gems.</p>
-          <button class="catsect_btn catsectbtn_top btn_absolutepos limegreen_btn_active centerhorizontal">
+          <button class="howtogotop catsect_btn catsectbtn_top btn_absolutepos limegreen_btn_active centerhorizontal">
             HOW TO GO ABOUT THIS?
           </button>
-          <button class="catsect_btn btn_bot btn_absolutepos limegreen_btn limegreen_btn_active centerhorizontal">
+          <button class="howtogobot catsect_btn btn_bot btn_absolutepos limegreen_btn limegreen_btn_active centerhorizontal">
             HOW TO GO ABOUT THIS?
           </button>
-          <div class="catsect_collapsible">
+          <div class="howtogohidden catsect_collapsible">
             There is no need to raise another echelon-- by the time story AR can be acquired, existing forces should be enough to handle relevant enemy strength, even when split up. Refer to below guide for more help and mission-specific references.<br>
             <div class="centered_btn_wrap">
               <button class="catsect_btn catsectbtn_top centerhorizontal centervertical">
@@ -89,13 +91,13 @@
           </div>
           <div class="catsection">
           <p class="text catsect_text">- Maintain logistics that provide doll contracts while continuing to craft with the recipe priority dictated on the right. Since the ones that give such contracts are initially inefficient resource-wise, players are advised to switch off them when not needed anymore.</p>
-          <button class="catsect_btn catsectbtn_top btn_absolutepos limegreen_btn_active centerhorizontal">
+          <button class="whentoswitchtop catsect_btn catsectbtn_top btn_absolutepos limegreen_btn_active centerhorizontal">
             WHEN TO SWITCH OFF?
           </button>
-          <button class="catsect_btn btn_bot btn_absolutepos limegreen_btn limegreen_btn_active centerhorizontal">
+          <button class="whentoswitchbot catsect_btn btn_bot btn_absolutepos limegreen_btn limegreen_btn_active centerhorizontal">
             WHEN TO SWITCH OFF?
           </button>
-          <div class="catsect_collapsible">
+          <div class="whentoswitchhidden catsect_collapsible">
             This will vary from player to player to player, but a good rule of thumb is to stop non-daily crafting and doll contract rush whenever a sturdy main tank is produced <span class="italic slightfade">(see right— "What should be crafted?" under "Pointers?")</span> or when the first three AR Team dolls have been acquired, at which point one should just press on with grinding out levels (even suboptimal tanks will suffice).
           </div>
         </div>
@@ -104,7 +106,7 @@
       <div class="twincolumn righttwin">
         <div class="cattitlebg">
           <div class="caticon">
-            <img class="3peeps" alt="formation" src="https://rydesolutions.com/wp-content/uploads/2012/11/group_full_512.png" height="140">
+            <img class="3peeps" alt="formation" src="http://rydesolutions.com/wp-content/uploads/2012/11/group_full_512.png" height="140">
           </div>
           <div class="cattitle">
             ECHELON
@@ -112,15 +114,15 @@
         </div>
         <div class="catsection">
           <p class="text catsect_text">- Aim to acquire the first three dolls of the Anti-Rain Team (henceforth "AR Team") by clearing 2-6, 3-3, and 3-6. Level a temporary ARSMG echelon formed with 2★ and 3★ dolls.</p>
-          <button class="catsect_btn catsectbtn_top btn_absolutepos tangerine_btn_active centerhorizontal">
+          <button class="pointerstop catsect_btn catsectbtn_top btn_absolutepos tangerine_btn_active centerhorizontal">
             POINTERS?
           </button>
-          <button class="catsect_btn btn_bot btn_absolutepos tangerine_btn tangerine_btn_active centerhorizontal">
+          <button class="pointersbot catsect_btn btn_bot btn_absolutepos tangerine_btn tangerine_btn_active centerhorizontal">
             POINTERS?
           </button>
-          <div class="catsect_collapsible">
+          <div class="pointershidden catsect_collapsible">
             It is fortunate for new players that sufficiently strong friend supports can clear the required stages in the player's stead, so be sure to ask for help! However, the player's echelon still needs to be strong enough to defend allied headquarters from enemy capture. For this purpose, these low-rarity dolls will serve well along the way:
-            <div class="centeredtwincolumn_wrapper">
+            <div class="centeredtwincolumn_wrapper centerhorizontal">
               <div class="centeredtwincolumn_float">
                 <span class="montserrat bold">ARs:</span><br>
                 <span class="tangerine underline">★★★</span><br>
@@ -149,13 +151,13 @@
         </div>
         <div class="catsection">
           <p class="text catsect_text">- After acquiring the first three AR Team dolls, it is time to form a primary echelon committed to maximum linking/leveling. The baseline formation would be all three AR Team dolls shielded by two SMGs <span class="italic slightfade">(see collapsible for more advice)</span>.</p>
-          <button class="catsect_btn catsectbtn_top btn_absolutepos tangerine_btn_active centerhorizontal">
+          <button class="whatshouldusetop catsect_btn catsectbtn_top btn_absolutepos tangerine_btn_active centerhorizontal">
             WHAT SHOULD BE USED?
           </button>
-          <button class="catsect_btn btn_bot btn_absolutepos tangerine_btn tangerine_btn_active centerhorizontal">
+          <button class="whatshouldusebot catsect_btn btn_bot btn_absolutepos tangerine_btn tangerine_btn_active centerhorizontal">
             WHAT SHOULD BE USED?
           </button>
-          <div class="catsect_collapsible">
+          <div class="whatshouldusehidden catsect_collapsible">
             - If UMP <span class="italic slightfade">(preferably 45, though 9 is still great)</span> or Ingram are available, use as main tank. If not, use the Sten MkII provided as story reward.<br>
             <p class="texttenpx">- To avoid core hell, one 5★ doll at most should be used unless three of the dolls in formation are 3★ dolls or lower. It is generally not recommended to use any 5★ dolls if four of the dolls in formation are 4★.</p>
             <p class="texttenpx">- With this in mind, choose an offtank; Skorpion will suffice if no better choices are available <span class="italic slightfade">(PPS-43, SR3-MP, Vector)</span> or the team's core costs will be prohibitive.</p>

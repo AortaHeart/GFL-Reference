@@ -1,28 +1,30 @@
 (function() {
-  var $why2on = $('.js-why2on');
-  var $why2off = $('.js-why2off');
-  var $why2text = $('.js-why2text');
-  var $why2bg = $('.js-why2bg');
-  var $logistics = $('.js-logistics');
-  var $body = $('.js-body');
+  var $why2off = $('.whytwotop');
+  var $why2on = $('.whytwobot');
+  var $why2text = $('.whytwohidden');
+  var $how2gooff = $('.howtogotop');
+  var $how2goon = $('.howtogobot');
+  var $how2gotext = $('.howtogohidden');
+  var $when2switchoff = $('.whentoswitchtop');
+  var $when2switchon = $('whentoswitchbot');
+  var $when2switchtext = $('whentoswitchhidden');
+  var $pointersoff = $('pointerstop');
+  var $pointerson = $('pointersbot');
+  var $pointerstext = $('pointershidden');
+  var $whenshoulduseoff = $('whatshouldusetop');
+  var $whenshoulduseon = $('whatshouldusebot');
+  var $whenshouldusetext = $('whatshouldusehidden');
 
 
   $(document).ready(function () {
-    $why2bg.css('display', 'none');
-    $logistics.css('height', 'auto');
-    $body.css('padding-bottom', 200);
+    $('.whytwohidden .howtogohidden .whentoswitchhidden .pointershidden .whatshouldusehidden').css('display', 'none');
   });
 
-  $why2off.on('click', why2toggle);
-  $why2on.on('click', why2toggle);
-
+  $('.whytwotop,.whytwobot').on('click', why2toggle);
   function why2toggle() {
     $why2off.toggle();
-    $why2bg.slideToggle(400);
+    $why2text.slideToggle(400);
   }
 
-  function why2hide() {
-    $why2off.toggle();
-    $why2text.css('top', 0);
-  }
+
 })();
